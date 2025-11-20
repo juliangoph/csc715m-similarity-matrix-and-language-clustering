@@ -1,0 +1,10 @@
+{
+  "languages": [
+    "ilocano","kapampangan","maguindanao","ibanag","tausug",
+    "pangasinan","kankanaey","tagalog","cebuano","hiligaynon","bikol",
+    "maranao","waray","chavacano","spanish","english"
+  ],
+  "ngram": 3,
+  "target_words_per_language": 50000,
+  "random_seed": 42
+}

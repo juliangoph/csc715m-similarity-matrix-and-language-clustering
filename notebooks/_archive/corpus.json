@@ -1,0 +1,6 @@
+{
+  "sources": [
+    { "lang": "chavacano",   "source": "wikipedia", "dump_code": "cbk_zam" },
+    { "lang": "waray",   "source": "wikipedia", "dump_code": "war" }
+  ]
+}
