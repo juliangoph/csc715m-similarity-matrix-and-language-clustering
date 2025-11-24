@@ -47,22 +47,69 @@ Our key questions:
 ```
 📁 Similarity-Matrix-Language-Clustering
 │
-├── data/
-│   └── ... (total: 16 corpora)
+├── data_clean/
+│   ├── aklanon.txt
+│   ├── bikol.txt
+│   ├── cebuano.txt
+│   ├── chavacano.txt
+│   ├── english.txt
+│   ├── hiligaynon.txt
+│   ├── ibanag.txt
+│   ├── ilocano.txt
+│   ├── kankanaey.txt
+│   ├── kapampangan.txt
+│   ├── maguindanao.txt
+│   ├── maranao.txt
+│   ├── pangasinan.txt
+│   ├── spanish.txt
+│   ├── tagalog.txt
+│   ├── tausug.txt
+│   └── waray.txt
 │
-├── outputs/
-│   ├── cosine_similarity.csv
-│   ├── distance_matrix.csv
-│   ├── dendrogram.png
-│   ├── heatmap_similarity.png
-│   └── mds_plot.png
+├── data_raw/
+│   ├── pdf/
+│   │    └── (raw PDF source files)
+│   ├── bikol.txt
+│   ├── cebuano.txt
+│   ├── chavacano.txt
+│   ├── english.txt
+│   ├── hiligaynon.txt
+│   ├── ibanag.txt
+│   ├── ilocano.txt
+│   ├── kankanaey.txt
+│   ├── kapampangan.txt
+│   ├── maguindanao.txt
+│   ├── maranao.txt
+│   ├── pangasinan.txt
+│   ├── spanish.txt
+│   ├── tagalog.txt
+│   ├── tausug.txt
+│   └── waray.txt
 │
 ├── notebooks/
-│   └── language_clustering.ipynb
+│   ├── _archive/
+│   ├── 00_setup.ipynb
+│   ├── 01_prepare_texts.ipynb
+│   ├── 02a_ngrams_tf_similarity.ipynb
+│   ├── 02b_cluster_upgma.ipynb
+│   ├── 02c_mds_2d.ipynb
+│   ├── 02d_eval_cophenetic.ipynb
+│   └── 03_report.ipynb
 │
-├── report.pdf
-├── README.md
-└── demo_video.mp4
+├── outputs/
+│   ├── cosine_heatmap.png
+│   ├── cosine.csv
+│   ├── dendrogram.png
+│   ├── distance_heatmap.png
+│   ├── distance.csv
+│   ├── mds_annotated.png
+│   ├── mds_annotated.svg
+│   ├── mds.csv
+│   ├── mds.png
+│   └── similarity_distance.pkl
+│
+└── (README.md, report.pdf, etc.)
+
 ```
 
 ------
