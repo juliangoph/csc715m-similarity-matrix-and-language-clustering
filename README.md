@@ -1,6 +1,6 @@
-# 📚 Similarity Matrix and Language Clustering
+# Similarity Matrix and Language Clustering
 
-## 🧠 Overview
+## Overview
 
 This project explores relationships among **Philippine languages** using computational similarity measures and clustering techniques.
  By analyzing parallel corpora from Bible translations and applying TF-IDF, cosine similarity, and hierarchical clustering (UPGMA), we visualize how languages group according to lexical and orthographic similarity.
@@ -12,7 +12,7 @@ Our key questions:
 
 ------
 
-## 🧩 Methodology Summary
+## Methodology Summary
 
 ### 1. **Data Sources**
 
@@ -42,10 +42,10 @@ Our key questions:
 
 ------
 
-## 🧭 Project Structure
+## Project Structure
 
 ```
-📁 Similarity-Matrix-Language-Clustering
+Similarity-Matrix-Language-Clustering
 │
 ├── data_clean/
 │   ├── aklanon.txt
@@ -114,7 +114,7 @@ Our key questions:
 
 ------
 
-## 🧰 Tools & Environment
+## Tools & Environment
 
 | Tool         | Version | Purpose                   |
 | ------------ | ------- | ------------------------- |
@@ -126,7 +126,7 @@ Our key questions:
 
 ------
 
-## 🧾 References
+## References
 
 - Manning, C.D., Raghavan, P., & Schütze, H. (2008). *Introduction to Information Retrieval.*
 - Sokal, R. R., & Michener, C. D. (1958). *A statistical method for evaluating systematic relationships.*
